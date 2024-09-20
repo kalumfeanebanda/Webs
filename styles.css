@@ -1,1 +1,134 @@
+/* set default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
 
+h1{
+    line-height: 1.;
+    font-size: 3rem;
+}
+body{
+    background-color: skyblue;
+}
+header {
+    text-align: center;
+    padding: 1rem;
+    color: darkgreen
+}
+img{
+    width: 600px;
+    height: 400px;
+    left: auto;
+}
+h2{
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 1.9rem;
+}
+h2, p {
+    text-align: center
+}
+/* style for paragraphs*/
+p {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    
+}
+/* style for nav bar*/
+nav {
+    padding: 0.5rem;
+    background-color: darkblue
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    margin: 2rem;
+}
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+/* style section*/
+section {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 1.4rem;
+}
+ul{
+    list-style-type: circle;
+    padding: 2rem;
+    align-content: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 1.4rem;
+}
+/* style for table*/
+table{
+    width: 500px;
+    padding: 4rem;
+    height: 300px;
+    border-collapse: collapse;
+    align-content: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+
+
+th, td {
+    text-align: center;
+    border: 1px solid;
+}
+/* style for form*/
+form {
+    border: 3px;
+    width: 50%;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    line-height: 1.2;
+    font-size: 1.2rem;
+}
+/* style for footer*/
+footer {
+    background-color: mediumblue;
+    color: aquamarine;
+    text-align: center;
+    padding: 1rem;
+}
+
+#copyright {
+    font-size: 14px;
+    font-style: italic;
+}
+/* style for images*/
+.right {
+    width: 525px;
+    height: 300px;
+}
+
+.middle {
+    width: 400px;
+    height: 400px;
+}
+
+.left {
+    width: 555px;
+    height: 300px;
+}
+#other{
+    text-align: left;
+}
